@@ -4,3 +4,139 @@ html , body {
     padding: 0;
     background: #E5E5E5;
 }
+header nav{
+    height: 50px; 
+    background-color: #fff; 
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+header nav ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+}
+.hero-section{
+    background-color:#fff; 
+    padding-top: 158px 0;
+    height: 448px;
+}
+.hero-section .hero-inner{
+    max-width: 960px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+.hero-section .hero-inner .col-left{
+    max-width: 497px;
+}
+.hero-section .hero-inner .col-left h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 30px;
+    color: #21243D;
+}
+.hero-section .hero-inner .col-left p{
+    margin-top: 40PX;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.hero-section .hero-inner .col-left .action-button{
+    margin-top: 38px;
+    position: absolute;
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 5px 20px;
+    max-width: fit-content;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+    line-height: 47px;
+    text-align: center;
+}
+.hero-section .hero-inner .col-right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.post-section{
+    background: #EDF7FA;
+    padding: 32px 0;
+}
+.post-section-inner{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.post-section .post-header h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    /* display: flex;
+    align-items: flex-end; */
+    color: #21243D;
+}
+.post-section .post-header a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.posts{
+    display: flex;
+    gap: 20px;
+}
+.posts .posts-item{
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px;
+}
+.posts .post-items header h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+
+.meta{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    display: flex;
+    gap: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.posts .post-items p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
